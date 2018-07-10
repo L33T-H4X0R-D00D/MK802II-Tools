@@ -1,11 +1,11 @@
 # MK802II-Tools
-*Version 20180710.1*   
+*Version 20180710.2*   
 This is not the only way to configure an MK802II to run GNU/Linux or specifially Linaro. This is the method I've developed which has made it easiest to be supported by junior admins for use as lobby signage, and lite workstations.
 
 # Files included
 * REAME.md - This file. Inventory and instructions for prep and install.
 * Display Modes.7z - Contains pre-configured EVB.BIN files in popular HD formats. (720p@50Hz, 720p@60Hz, 1080p@24Hz, 1080i@50Hz, 1080p@50Hz, 1080i@60Hz, 1080p@60Hz)
-* OS Image - The core linux image which these documents build from. You will need to download all 3 files to unzip the image file to 
+* OS Image - The core linux image which these documents build from. You will need all three files in the directory.
 * windiskimager.7z - Used to burn image files to SD card. Version 0.6 is included here but a newer version may work if you're so inclined.
 
 
@@ -17,7 +17,7 @@ This is not the only way to configure an MK802II to run GNU/Linux or specifially
 * 8gig or larger microSD card
 * Usb MicroSD card reader
 * 7zip
-* Wireless 802.11a/b/g/n connection to the internet.
+* Wireless 802.11a/b/g/n connection to the internet
 
 # Brief 
 This was originally written as a step by step, click by click, instruction manual to prepare a working MK802II device for use as corporate signage. At the time there were several junior admins who may be tasked with repairing one of these devices if they were corrupted by users not following directions or in one case, a lightning strike. The Rikomagic MK802II has an Allwinner A10 1Ghz CPU (Cortex-A8), 1GB of LPDDR memory, Onboard 2Ghz WiFi, one full size USB port, one micro-USB port, and one micro-USB port for power. It was a fairly powerful device when released around 2012. They originally shipped with Android 4.04 (Icecream sandwich).  I have since seen them sell for less than the cost of an 8GB microSD card.  
