@@ -70,4 +70,4 @@ The root password is "linaro".
 43. Once the previous step completes, type "sudo apt upgrade" and press enter.
 44. Once the previous step completes, type "sudo apt dist-upgrade" and press enter.
 
-Your device is now configured and update.  The next step is to open your custom signage URL. 
+Your device is now configured and updated.  The next step is to open your custom signage URL. 
